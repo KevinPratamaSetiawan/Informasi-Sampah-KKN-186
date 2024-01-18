@@ -865,7 +865,11 @@ footer{
 }
 
 .purpose-section > .heading-1{
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    border-top: 3px solid var(--color-black);
+    border-bottom: 3px solid var(--color-black);
+    margin-bottom: 20px;
 }
 
 .purpose-section > .description{
