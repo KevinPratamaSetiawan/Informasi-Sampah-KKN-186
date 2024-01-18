@@ -584,8 +584,8 @@ footer{
 
 .land-aside-title{
     font-size: 1.5rem;
-    text-decoration: underline overline;
-    text-underline-offset: 7px;
+    border-top: 2px solid var(--color-black);
+    border-bottom: 2px solid var(--color-black);
     margin: 30px 0px 0px 0px;
 
     display: flex;
@@ -633,7 +633,7 @@ footer{
 
 #sea-section{
     background-color: var(--color-sea);
-    padding: 20px 40px 40px 40px;
+    padding: 20px 20px 40px 20px;
 
     flex-direction: column;
     align-items: stretch;
