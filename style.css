@@ -26,19 +26,19 @@
 }
 
 .layer-1{
-    background-image: url('/Informasi-Sampah-KKN-186/Asset/Landing Page/layer-1.svg');
+    background-image: url('/Asset/Landing Page/layer-1.svg');
 }
 
 .layer-2{
-    background-image: url('/Informasi-Sampah-KKN-186/Asset/Landing Page/layer-2.svg');
+    background-image: url('/Asset/Landing Page/layer-2.svg');
 }
 
 .layer-3{
-    background-image: url('/Informasi-Sampah-KKN-186/Asset/Landing Page/layer-3.svg');
+    background-image: url('/Asset/Landing Page/layer-3.svg');
 }
 
 .layer-4{
-    background-image: url('/Informasi-Sampah-KKN-186/Asset/Landing Page/layer-4.svg');
+    background-image: url('/Asset/Landing Page/layer-4.svg');
 }
 
 body{
@@ -52,7 +52,7 @@ body::-webkit-scrollbar{
 
 /* Header Footer */
 #loading-screen{
-    background: var(--color-white) url('/Informasi-Sampah-KKN-186/Asset/Logo/loading-circle.gif') no-repeat center center;
+    background: var(--color-white) url('/Asset/Logo/loading-circle.gif') no-repeat center center;
     /* background-size: 10%; */
     z-index: 10;
     width: 100%;
