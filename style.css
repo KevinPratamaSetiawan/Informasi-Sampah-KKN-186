@@ -682,6 +682,7 @@ footer{
 .filter-list{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
 
@@ -692,7 +693,10 @@ footer{
     font-family: 'Fjord One', serif;
     color: var(--color-black);
     font-size: 1rem;
+    text-align: center;
+    width: 130px;
 
+    margin: 5px;
     padding: 2px 10px;
     border: 2px solid var(--color-black);
     border-radius: 50px;
