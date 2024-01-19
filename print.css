@@ -26,19 +26,19 @@
 }
 
 .layer-1{
-    background-image: url('/Asset/Landing Page/layer-1.svg');
+    background-image: url('/Informasi-Sampah-KKN-186/Asset/Landing Page/layer-1.svg');
 }
 
 .layer-2{
-    background-image: url('/Asset/Landing Page/layer-2.svg');
+    background-image: url('/Informasi-Sampah-KKN-186/Asset/Landing Page/layer-2.svg');
 }
 
 .layer-3{
-    background-image: url('/Asset/Landing Page/layer-3.svg');
+    background-image: url('/Informasi-Sampah-KKN-186/Asset/Landing Page/layer-3.svg');
 }
 
 .layer-4{
-    background-image: url('/Asset/Landing Page/layer-4.svg');
+    background-image: url('/Informasi-Sampah-KKN-186/Asset/Landing Page/layer-4.svg');
 }
 
 body{
@@ -52,7 +52,7 @@ body::-webkit-scrollbar{
 
 /* Header Footer */
 #loading-screen{
-    background: var(--color-white) url('/Asset/Logo/loading-circle.gif') no-repeat center center;
+    background: var(--color-white) url('/Informasi-Sampah-KKN-186/Asset/Logo/loading-circle.gif') no-repeat center center;
     /* background-size: 10%; */
     z-index: 10;
     width: 100%;
@@ -991,4 +991,130 @@ footer{
     font-family: 'PT Serif', serif;
     font-size: 1.5rem;
     color: var(--color-white);
+}
+
+/* Article Page */
+.mobile-header{
+    display: flex;
+    visibility: visible;
+
+    width: 100%;
+}
+
+.mobile-header > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-header > div > a{
+    font-size: 1.5rem;
+    color: var(--color-black);
+    margin: 0px 5px;
+}
+
+.mobile-header > div > p{
+    font-size: 1.5rem;
+    text-transform: none;
+}
+
+.article-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+aside{
+    display: none;
+    visibility: hidden;
+    justify-content: end;
+    align-items: start;
+
+    padding: 20px;
+    width: 25%;
+
+    position: sticky;
+    top: 0;
+}
+
+aside > a{
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 2.5rem;
+
+    display: none;
+    visibility: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: var(--color-black);
+}
+
+.article-main-section{
+    width: 100%;
+    padding: 20px;
+    margin-top: 0;
+}
+
+.article-image{
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    object-position: 50% 50%;
+
+    height: 400px;
+    width: 100%;
+
+    border: 2px solid var(--color-black);
+}
+
+.article-title-attribute{
+    font-size: 2rem;
+    text-transform: none;
+
+    margin-top: 0;
+}
+
+.article-tag-date-attribute, .article-author-attribute-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: none;
+
+    margin: 10px 0px;
+    padding: 10px 0px;
+    border-top: 3px solid var(--color-black);
+    border-bottom: 3px solid var(--color-black);
+}
+
+.article-author-attribute-container{
+    justify-content: end;
+}
+
+.article-tag-attribute, .article-date-attribute, .article-author-attribute{
+    font-size: 1.2rem;
+    text-transform: none;
+}
+
+.article-content-attribute{
+    margin: 10px 0px;
+}
+
+.material-container{
+    margin: 15px 0px;
+}
+
+.opening-paragraph:first-letter {
+    float: left;
+    font-size: 5em;
+    line-height: 0.5em;
+    padding-bottom: 0.05em;
+    padding-top: 0.2em;
+}
+
+.material-container li{
+    margin: 5px 25px;
+
+    list-style: decimal;
 }
