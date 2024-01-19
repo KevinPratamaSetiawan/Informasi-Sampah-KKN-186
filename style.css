@@ -736,9 +736,9 @@ footer{
     font-size: 1.5rem;
 
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden;
     white-space: nowrap;
-    text-overflow: ellipsis;
+    text-overflow: ellipsis; */
     display: inline-block;
 
     background: none;
@@ -1014,6 +1014,7 @@ aside > a{
 .article-title-attribute{
     font-size: 2rem;
     text-transform: none;
+    text-align: start;
 
     margin-top: 0;
 }
