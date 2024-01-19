@@ -1018,7 +1018,7 @@ aside > a{
     margin-top: 0;
 }
 
-.article-tag-date-attribute, .article-author-attribute-container{
+.article-tag-date-attribute, .article-team-author-attribute-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1030,11 +1030,7 @@ aside > a{
     border-bottom: 3px solid var(--color-black);
 }
 
-.article-author-attribute-container{
-    justify-content: end;
-}
-
-.article-tag-attribute, .article-date-attribute, .article-author-attribute{
+.article-tag-attribute, .article-date-attribute, .article-author-attribute, .article-team-attribute{
     font-size: 1.2rem;
     text-transform: none;
 }
