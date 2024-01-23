@@ -671,8 +671,7 @@ footer{
 .hero-word{
     font-family: 'PT Serif', serif;
     font-weight: 900;
-    font-size: 15rem;
-    word-spacing: 2rem;
+    font-size: 15vw;
     color: var(--color-black);
 
     margin: -60px 0px;
@@ -681,7 +680,7 @@ footer{
 .hero-pronounciation{
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 2vw;
     color: var(--color-black);
 }
 
@@ -698,7 +697,7 @@ footer{
 
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 3.5vw;
     color: var(--color-black);
 }
 
@@ -824,6 +823,7 @@ footer{
     height: 25%;
 
     display: flex;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     align-items: start;
 }
